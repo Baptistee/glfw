@@ -2,6 +2,10 @@ cmake_minimum_required(VERSION 3.0)
 
 project(GLFW VERSION 3.3.5 LANGUAGES C)
 
+# ADD AT SANDBOX COMMIT
+add_compile_definitions(_CRT_SECURE_NO_WARNINGS)
+#add_compile_definitions(_GLFW_WIN32)
+
 set(CMAKE_LEGACY_CYGWIN_WIN32 OFF)
 
 if (POLICY CMP0054)
